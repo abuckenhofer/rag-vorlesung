@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abuckenhofer/rag-vorlesung/blob/main/RAG_DuckDB_Minimal.ipynb)
 
-Begleitmaterial zur Ringvorlesung "Retrieval Augmented Generation" von Andreas Buckenhofer.
+Begleitmaterial zur Vorlesung von Andreas Buckenhofer.
 
 Das Notebook baut eine vollständige RAG-Anwendung fast nur mit SQL: Wikipedia-Artikel laden, in Chunks zerlegen, Embeddings berechnen, semantisch suchen, mit einem LLM antworten und das Ergebnis messen. Python wird nur in einer Zelle gebraucht, um das Embedding-Modell und das LLM als SQL-Funktionen in DuckDB zu registrieren. Alle anderen Zellen beginnen mit `%%sql` und enthalten reines SQL, ausgeführt über die Erweiterung [jupysql](https://jupysql.ploomber.io).
 
